@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+.container {
+  background-color: lightcoral;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50vh;
+  background-color: cornflowerblue;
+  padding: 0 20px;
+}
+
+.chat {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: antiquewhite;
+}
+
+.conversation-list {
+  background-color: bisque;
+  flex-grow: 1;
+}
+
+.chat-screen {
+  flex-grow: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.conversation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid;
+}
+
+.header {
+  border-bottom: 1px solid;
+  flex-grow: 1;
+}
+
+.messages-box {
+  flex-grow: 20;
+}
+
+.footer {
+  flex-grow: 1;
+  border-top: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.error {
+  color: red;
+}
+
+.errorInput {
+  border: 1px solid red;
+}
+
+.correctInput {
+  border: 1px solid green;
+}
+
+.messages-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.sender {
+  align-self: flex-end;
+  background-color: #66ffe3;
+  padding: 0 5px;
+  border-radius: 0 0 0 10px;
+  margin: 1px 0;
+}
+
+.receiver {
+  align-self: flex-start;
+  background-color: #fc72b8;
+  border-radius: 0 10px 0 0;
+  margin: 1px 0;
+}
